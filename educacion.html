@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hoja de Vida</title>
+    <style>
+        .fuentes{
+            font-family: Verdana;
+            font-weight: normal;
+        }
+    </style>
+</head>
+<body>
+<iframe src="encabezado.html" frameborder="0" width="100%" height="350"></iframe>
+<nav>
+    <p>
+        <a href="index.html" class="fuentes">Inicio</a>
+        <a href="educacion.html" class="fuentes"> | Educación | </a>
+        <a href="experiencia.html" class="fuentes">Experiencia</a>
+    </p>
+</nav>
+<section>
+    <p><h2 class="fuentes">Educación</h2></p>
+    <table border="1" cellspacing=0 cellpadding=2 bordercolor="666633" class="fuentes">
+        <tr>
+            <th>Año</th>
+            <th>Institución</th>
+            <th>Lugar</th>
+            <th>¿Culminó?</th>
+        </tr>
+        <tr>
+            <td>1995</td>
+            <td>Francisco Antonio de Ulloa</td>
+            <td>Popayán</td>
+            <td>Si</td>
+        </tr>
+        <tr>
+            <td>2005</td>
+            <td>Universidad de Cauca</td>
+            <td>Popayán</td>
+            <td>Si</td>
+        </tr>
+    </table>
+    <form action="#" id="frmEstudios">
+        <label><h2 class="fuentes">Agregar Estudios</h2></label>
+        <label for="id_anio" class="fuentes">Año: </label>
+        <select name="anio" id="id_anio" class="fuentes">
+            <option value="2018">2018</option>
+            <option value="2017">2017</option>
+            <option value="2016">2016</option>
+            <option value="2015">2015</option>
+            <option value="2014">2014</option>
+            <option value="2013">2013</option>
+            <option value="2012">2012</option>
+            <option value="2011">2011</option>
+            <option value="2010">2010</option>
+            <option value="2009">2009</option>
+        </select><br>
+        <label for="txtInstitucion" class="fuentes">Institución: </label>
+        <input type="text" id="txtInstitucion"><br>
+        <label for="txtLugar" class="fuentes">Lugar: </label>
+        <input type="text" id="txtLugar">
+        <br><br>
+        <input type="submit" id="btnEnviar" value="Enviar">
+    </form>
+</section>
+<footer>
+    <h5 class="fuentes">Correo Electrónico: <strong>mmbtrs@gmail.com</strong> <br>
+        Teléfono: <strong>3127857713</strong> <br>
+        Dirección: <strong>Calle 10 #3-26</strong></h5>
+</footer>
+</body>
+</html>
